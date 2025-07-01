@@ -84,6 +84,13 @@ The website features a **modern dark theme** with cyan and golden accents to giv
 
 ## OUTPUT
 
+<img width="1280" alt="Image" src="https://github.com/user-attachments/assets/216b4268-29d5-4853-90c5-f3950891a822" />
+
+<img width="1280" alt="Image" src="https://github.com/user-attachments/assets/27089b1a-120f-4b12-a7b7-69018596fe83" />
+
+<img width="1280" alt="Image" src="https://github.com/user-attachments/assets/d5795cbe-a36c-4cda-ad55-8356457ebd8b" />
+
+<img width="1280" alt="Image" src="https://github.com/user-attachments/assets/7b814f49-e123-4aa3-911f-e9ca3e3c36ae" />
 
 
 
