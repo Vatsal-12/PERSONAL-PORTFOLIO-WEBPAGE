@@ -1,0 +1,154 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #121212; /* dark background */
+  color: #e0e0e0; /* light text */
+  line-height: 1.6;
+}
+
+header {
+  background-color: #1f1f1f; /* dark header */
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+.logo {
+  color: #00fff5; /* cyan accent */
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: #e0e0e0;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #00fff5;
+}
+
+.section {
+  padding: 80px 20px;
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+.home-section {
+  background: linear-gradient(135deg, #1f1f1f, #333);
+  color: #00fff5;
+  padding: 100px 20px;
+}
+
+.home-section span {
+  color: #ffd369;
+}
+
+h1, h2 {
+  margin-bottom: 20px;
+  color: #00fff5;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skills-list li {
+  background-color: #333;
+  color: #00fff5;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 20px;
+  transition: transform 0.3s;
+}
+
+.skills-list li:hover {
+  transform: scale(1.1);
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.project-card {
+  background-color: #1f1f1f;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+}
+
+.project-card h3 {
+  margin-bottom: 10px;
+  color: #ffd369;
+}
+
+.project-card p {
+  color: #bdbdbd;
+}
+
+.project-card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #00fff5;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #1f1f1f;
+  color: #888;
+  margin-top: 40px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .nav-links {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  .nav-links li {
+    margin: 10px 0;
+  }
+}
