@@ -14,7 +14,7 @@
 
 ---
 
-## 📖 Description
+## Description
 
 This is a **responsive, single-page personal portfolio website** designed to showcase a developer's profile, skills, projects, and contact information. It serves as a digital resume and personal branding tool, helping developers highlight their capabilities to potential employers, clients, or collaborators.
 
@@ -22,7 +22,7 @@ The website features a **modern dark theme** with cyan and golden accents to giv
 
 ---
 
-## 🔍 Features
+## Features
 
 - **Single Page Layout** with sections:
   - Home
@@ -45,7 +45,7 @@ The website features a **modern dark theme** with cyan and golden accents to giv
 
 ---
 
-## 🚀 Technologies Used
+## Technologies Used
 
 | Technology | Description                      |
 |------------|----------------------------------|
@@ -59,7 +59,7 @@ The website features a **modern dark theme** with cyan and golden accents to giv
 
 ---
 
-## 🎨 Theme Details
+## Theme Details
 
 - **Background Color:** #121212 (Dark Gray)
 - **Accent Color:** #00FFF5 (Cyan)
@@ -72,7 +72,7 @@ The website features a **modern dark theme** with cyan and golden accents to giv
 ---
 
 
-## 🌟 Future Enhancements (Optional)
+## Future Enhancements (Optional)
 
 - Dark/Light Mode Toggle
 - Downloadable Resume Button
